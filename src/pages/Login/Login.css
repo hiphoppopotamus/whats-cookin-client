@@ -1,0 +1,44 @@
+.Login {
+    font-family: 'Raleway', sans-serif;
+    max-width: 555px;
+    margin: 30px auto 50px;
+    text-align: center;
+    background-color: var(--cream);
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.login-page-title {
+    font-size: 32px;
+    color: var(--white);
+    text-shadow: 4px 0 3px var(--pink), 4px 4px 3px var(--pink), 4px 4px 3px var(--pink), 4px 4px 3px var(--pink);
+    margin-bottom: 12px;
+}
+
+.login-page-subtitle {
+    font-size: 18px;
+    color: var(--white);
+    text-shadow: 3px 3px 3px var(--pink), 3px 3px 3px var(--pink), 3px 3px 3pc var(--pink), 3px 3px 3px var(--pink);
+    margin-bottom: 20px;
+}
+
+.login-page-form label {
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    margin-top: 15px;
+}
+
+/* Text area styling */
+.login-page-form input, .login-page-form textarea, .login-page-form select {
+    font-family: 'Raleway', sans-serif;
+    width: 450px;
+    padding: 16px 10px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 3, 48);
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+}

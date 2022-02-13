@@ -1,0 +1,95 @@
+/* Grid set-up */
+
+.Landing {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    font-family: 'Raleway', sans-serif;
+    /*align-items: center;*/
+}
+
+.landing-item {
+}
+
+/* Left side stuff */
+
+.landing-page-left {
+    align-self: center;
+    justify-self: end;
+    text-align: right;
+    width: 80%;
+    margin-right: 50px;
+    /*border-style: dotted;*/
+}
+
+.landing-page-title {
+    font-size: 4rem;
+}
+
+.landing-page-subtitle {
+    font-size: 1.5rem;
+    margin: 20px 0 30px;
+}
+
+.landing-page-sign-up-button {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: all 2s ease-out;
+}
+
+.landing-page-sign-up-button:hover {
+    background-color: #fff;
+    box-shadow: #422800 10px 10px 0 0;
+    transition: all 1s ease-out;
+
+}
+
+.landing-page-sign-up-button:active {
+    box-shadow: #422800 10px 10px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    .landing-page-sign-up-button {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
+
+
+/* Right side stuff */
+
+.landing-page-right {
+    justify-self: start;
+    align-self: center;
+    width: 80%;
+    min-height: 100%;
+    background-image: url("../../assets/images/food-landing.jpeg");
+    margin-left: 50px;
+}
+
+.landing-page-image {
+    /*min-height: 100%;*/
+    /*max-width: 100%;*/
+    /*display: block;*/
+    /*margin: auto;*/
+    /*object-fit: fill;*/
+
+}
+
+

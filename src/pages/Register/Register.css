@@ -1,0 +1,42 @@
+.Register {
+    font-family: 'Raleway', sans-serif;
+    max-width: 555px;
+    margin: 30px auto 50px;
+    text-align: center;
+    background-color: #5a628c;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.register-page-title {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.register-page-subtitle {
+    font-size: 18px;
+    color: #6c3647;
+    margin-bottom: 20px;
+}
+
+.register-page-form label {
+    text-align: left;
+    font-size: 14px;
+    display: block;
+    margin-top: 15px;
+}
+
+/* Text area styling */
+.register-page-form input, .register-page-form textarea, .register-page-form select {
+    font-family: 'Raleway', sans-serif;
+    width: 450px;
+    padding: 16px 10px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 3, 48);
+    box-sizing: border-box;
+    display: block;
+    font-size: 14px;
+}
