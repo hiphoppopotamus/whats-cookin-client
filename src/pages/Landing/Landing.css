@@ -1,15 +1,11 @@
 /* Grid set-up */
 
-.Landing {
+.landing {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     font-family: 'Raleway', sans-serif;
-    /*align-items: center;*/
-}
-
-.landing-item {
 }
 
 /* Left side stuff */
@@ -18,59 +14,19 @@
     align-self: center;
     justify-self: end;
     text-align: right;
-    width: 80%;
-    margin-right: 50px;
-    /*border-style: dotted;*/
+    margin-left: 50px;
 }
 
 .landing-page-title {
-    font-size: 4rem;
+    font-size: 64px;
+    font-weight: 900;
 }
 
 .landing-page-subtitle {
-    font-size: 1.5rem;
+    font-size: 24px;
+    font-weight: 800;
     margin: 20px 0 30px;
 }
-
-.landing-page-sign-up-button {
-    background-color: #fbeee0;
-    border: 2px solid #422800;
-    border-radius: 30px;
-    box-shadow: #422800 4px 4px 0 0;
-    color: #422800;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 600;
-    font-size: 1.2rem;
-    padding: 0 18px;
-    line-height: 50px;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    transition: all 2s ease-out;
-}
-
-.landing-page-sign-up-button:hover {
-    background-color: #fff;
-    box-shadow: #422800 10px 10px 0 0;
-    transition: all 1s ease-out;
-
-}
-
-.landing-page-sign-up-button:active {
-    box-shadow: #422800 10px 10px 0 0;
-    transform: translate(2px, 2px);
-}
-
-@media (min-width: 768px) {
-    .landing-page-sign-up-button {
-        min-width: 120px;
-        padding: 0 25px;
-    }
-}
-
 
 /* Right side stuff */
 
@@ -78,18 +34,18 @@
     justify-self: start;
     align-self: center;
     width: 80%;
-    min-height: 100%;
+    min-height: 70%;
     background-image: url("../../assets/images/food-landing.jpeg");
     margin-left: 50px;
+    margin-bottom: 40px;
+    transition: all 1s ease-out;
 }
 
-.landing-page-image {
-    /*min-height: 100%;*/
-    /*max-width: 100%;*/
-    /*display: block;*/
-    /*margin: auto;*/
-    /*object-fit: fill;*/
-
+.landing-page-right:hover {
+    box-shadow:
+            0 0 50px var(--yellow),
+            -10px 0 80px var(--pink),
+            10px 0 80px var(--cream);
+    transition: all 1s ease-out;
 }
-
 

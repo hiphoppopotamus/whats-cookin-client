@@ -5,11 +5,14 @@
 }
 
 :root {
+  --primary: #fbeee0;
   --pink: #f28482;
   --yellow: #f6bd60;
-  --cream: #f5cac3;
+  --cream: #fdb6a9;
   --green: #84a59d;
+  --brown: #a6846c;
   --white: #f7ede2;
+  --black: #343434;
 }
 
 @media screen and (max-width: 1000px) {

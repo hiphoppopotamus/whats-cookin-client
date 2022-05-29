@@ -1,46 +1,72 @@
 .btn {
-    background-color: #fbeee0;
-    border: 2px solid #422800;
+    font-family: 'Raleway', sans-serif;
+    border: 3px solid var(--black);
     border-radius: 30px;
-    box-shadow: #422800 4px 4px 0 0;
-    color: #422800;
+    box-shadow: var(--black) 3px 3px 0 0;
+    color: var(--black);
+    /*text-shadow: 1px 1px 1px var(--pink), 1px 1px 1px var(--pink), 1px 1px 1px var(--pink), 1px 1px 1px var(--pink);*/
     cursor: pointer;
     display: inline-block;
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin-top: 15px;
-    padding: 0 18px;
+    font-weight: 900;
+    font-size: 22px;
+    padding: 0 24px;
     line-height: 50px;
     text-align: center;
     text-decoration: none;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    transition: all 1s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .btn:hover {
-    background-color: #fff;
-    box-shadow: #422800 10px 10px 0 0;
-    transition: all 1s ease-out;
+    box-shadow: var(--black) 8px 8px 0 0;
+    transition: all 0.2s ease-out;
 }
 
 .btn:active {
-    box-shadow: #422800 10px 10px 0 0;
-    transform: translate(2px, 2px);
+    box-shadow: var(--black) 4px 4px 0 0;
+    transform: translate(4px, 4px);
 }
 
+/* Button colors/styles */
+
 .btn--primary {
+    background-color: var(--primary);
+}
+
+.btn--pink {
     background-color: var(--pink);
+}
+
+.btn--pink {
+    background-color: var(--pink);
+}
+
+.btn--yellow {
+    background-color: var(--yellow);
+}
+
+.btn--cream {
+    background-color: var(--cream);
+}
+
+.btn--green {
+    background-color: var(--green);
+}
+
+.btn--white {
+    background-color: var(--white);
+}
+
+.btn--black {
+    background-color: var(--black);
 }
 
 .btn--outline {
     background-color: transparent;
+    text-shadow: 1px 1px 1px var(--pink), 1px 1px 1px var(--pink), 1px 1px 1px var(--pink), 1px 1px 1px var(--pink);
     color: #fff;
-    padding: 8px 20px;
-    border-radius: 4px;
-    border: 1px solid var(--pink);
-    transition: all 0.3s ease-out;
 }
 
 /*.btn--medium {*/
@@ -57,3 +83,10 @@
 /*    color: #fff;*/
 /*}*/
 
+.margin--0px {
+    margin: 0px;
+}
+
+.margin-top--25px {
+    margin-top: 25px;
+}

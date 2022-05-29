@@ -1,19 +1,18 @@
 import "./Landing.css";
+import { Button } from "../../components/Button/Button";
 import HeroImage from "../../assets/images/food-landing.jpeg";
 
 const Landing = () => {
     return ( 
-        <div className="Landing">
-            <div className="landing-item landing-page-left">
-                <h1 className="landing-page-title">Like honestly, why cook when u can buy my food?</h1>
-                <h1 className="landing-page-subtitle">Made with love</h1>
-                <button className="landing-page-sign-up-button">
+        <div className="landing">
+            <div className="landing-page-left">
+                <h1 className="landing-page-title">Why cook when u can buy my food?</h1>
+                <h1 className="landing-page-subtitle">like honestly why</h1>
+                <Button buttonStyle="btn--primary">
                     Eat now!
-                </button>
+                </Button>
             </div>
-            <div className="landing-item landing-page-right">
-                {/*<img src={HeroImage} alt="Whats cooking hero" className="landing-page-image"/>*/}
-            </div>
+            <div className="landing-page-right"/>
          </div>
      );
 }
